@@ -19,14 +19,14 @@ function App() {
 				</Grid>
 			</Grid>
 		)
-
-		/*return (
+/*
+		return (
 			<Grid container spacing={5}>
-				<Grid xs={3} lg={12}> 1 </Grid>
-				<Grid xs={3} lg={6}> 2 </Grid>
-				<Grid xs={3} lg={6}> 3 </Grid>
+				<Grid xs={4} lg={12}> 1 </Grid>
+				<Grid xs={4} lg={6}> 2 </Grid>
+				<Grid xs={4} lg={6}> 3 </Grid>
 			</Grid>
-		)*/
+		) */
 }
 
 
