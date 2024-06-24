@@ -12,7 +12,25 @@ import Summary from './components/Summary';
 
 
 function App() {
+	
 	return (
+
+
+		
+		<Grid container spacing={5}>
+				<Grid xs={12} sm={12} md={12} lg={12} >
+					<Calculator/>
+				</Grid>
+				<Grid xs={12} sm={6} md={6} lg={6}>
+					<Plan title="Plan" subtitle="100 Gb" description="Todos los servicios incluídos" />
+				</Grid>
+				<Grid xs={12} sm={6} md={6} lg={6}>
+					<Result title="$120" subtitle="6 meses" description="Plan 100 Gb"/>
+				</Grid>
+			</Grid>
+	  )
+			
+	/*return (
 		<Grid container spacing={5}  alignItems="center">
 			<Grid xs={6} md={4} lg={2}>
 				<Indicator title='Precipitación' subtitle='Probabilidad' value={0.13} />
@@ -53,6 +71,8 @@ function App() {
 
 		</Grid>
 	)
+*/ 
+
 	//	<Indicator title='Precipitación' subtitle='Probabilidad' value={0.13} />
 
 	/*
