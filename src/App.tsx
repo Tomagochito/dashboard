@@ -8,15 +8,12 @@ import Plan from './components/Plan';
 import Result from './components/Result';
 import Indicator from './components/Indicator';
 import Summary from './components/Summary';
-
-
+import WeatherChart from './components/WeatherChart';
+import ControlPanel from './components/ControlPanel';
 
 function App() {
-	
-	return (
 
-
-		
+	/*return (
 		<Grid container spacing={5}>
 				<Grid xs={12} sm={12} md={12} lg={12} >
 					<Calculator/>
@@ -28,10 +25,10 @@ function App() {
 					<Result title="$120" subtitle="6 meses" description="Plan 100 Gb"/>
 				</Grid>
 			</Grid>
-	  )
-			
-	/*return (
-		<Grid container spacing={5}  alignItems="center">
+	  )*/
+
+	return (
+		<Grid container spacing={5} alignItems="center">
 			<Grid xs={6} md={4} lg={2}>
 				<Indicator title='Precipitación' subtitle='Probabilidad' value={0.13} />
 			</Grid>
@@ -53,25 +50,34 @@ function App() {
 
 			<Grid xs={12} lg={2}>
 
-				<Grid xs={6} lg={6} sx={({paddingBottom:"5%"})}>
+				<Grid xs={6} lg={6} sx={({ paddingBottom: "5%" })}>
 					<Indicator title='Precipitación' subtitle='Probabilidad' value={0.13} />
 				</Grid>
 
-				<Grid xs={6} lg={6} sx={({paddingBottom:"5%"})}>
+				<Grid xs={6} lg={6} sx={({ paddingBottom: "5%" })}>
 					<Summary></Summary>
 				</Grid>
 
 			</Grid>
-
-				
 			<Grid xs={12} md={6} lg={10} >
 				<BasicTable />
 			</Grid>
 
+			<Grid xs={12} lg={2}>
+				<ControlPanel />
+			</Grid>
+
+			<Grid xs={12} lg={10}>
+				<WeatherChart></WeatherChart>
+			</Grid>
+
+
+
+
 
 		</Grid>
 	)
-*/ 
+
 
 	//	<Indicator title='Precipitación' subtitle='Probabilidad' value={0.13} />
 
