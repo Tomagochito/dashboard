@@ -32,12 +32,6 @@ COSAS DE ED:
         }; 
 
 
-        /*
-         * Clase book sin comparable
-         * 
-         */
-
-
         System.out.println("Palabras en el set únicas: "+set1.size());
             Set<Book> set2 = new LinkedHashSet();
             Set<Book> set3 = new TreeSet<>();
