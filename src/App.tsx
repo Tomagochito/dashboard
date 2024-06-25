@@ -8,9 +8,9 @@ import WeatherChart from './components/WeatherChart';
 import ControlPanel from './components/ControlPanel';
 
 function App() {
-
+{/*changes */}
 	return (
-		<Grid container spacing={5} alignItems="center">
+		<Grid container paddingX={15} spacing={2} alignItems="center">
 			<Grid xs={6} md={4} lg={2}>
 				<Indicator title='Precipitación' subtitle='Probabilidad' value={0.13} />
 			</Grid>
