@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<animales>
+    <animal>
+        <nombre>León</nombre>
+        <especie>Panthera leo</especie>
+        <habitat>Savanas</habitat>
+        <dieta>Carnívoro</dieta>
+    </animal>
+    <animal>
+        <nombre>Elefante</nombre>
+        <especie>Elephas maximus</especie>
+        <habitat>Selvas y sabanas</habitat>
+        <dieta>Herbívoro</dieta>
+    </animal>
+    <animal>
+        <nombre>Pingüino</nombre>
+        <especie>Aptenodytes forsteri</especie>
+        <habitat>Antártida</habitat>
+        <dieta>Carnívoro</dieta>
+    </animal>
+    <animal>
+        <nombre>Águila</nombre>
+        <especie>Aquila nipalensis</especie>
+        <habitat>Montañas y llanuras</habitat>
+        <dieta>Carnívoro</dieta>
+    </animal>
+    <animal>
+        <nombre>Koala</nombre>
+        <especie>Phascolarctos cinereus</especie>
+        <habitat>Bosques de eucalipto</habitat>
+        <dieta>Herbívoro</dieta>
+    </animal>
+</animales>

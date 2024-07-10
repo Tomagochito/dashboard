@@ -6,6 +6,7 @@ import Indicator from './components/Indicator';
 import Summary from './components/Summary';
 import WeatherChart from './components/WeatherChart';
 import ControlPanel from './components/ControlPanel';
+import OtherTable from "./components/OtherTable";
 import { useState, useEffect } from 'react';
 
 function App() {
@@ -183,6 +184,10 @@ useEffect(()=>{
 
 			<Grid xs={12} lg={10}>
 				<WeatherChart></WeatherChart>
+			</Grid>
+
+			<Grid xs={12} lg={12}>
+				<OtherTable></OtherTable>
 			</Grid>
 
 

@@ -1,0 +1,35 @@
+{
+    "frutas": [
+      {
+        "nombre": "Manzana",
+        "color": "Rojo",
+        "familia": "Rosáceas",
+        "precioPorKg": 3.5
+      },
+      {
+        "nombre": "Banana",
+        "color": "Amarillo",
+        "familia": "Musáceas",
+        "precioPorKg": 1.2
+      },
+      {
+        "nombre": "Pera",
+        "color": "Verde",
+        "familia": "Rosáceas",
+        "precioPorKg": 2.8
+      },
+      {
+        "nombre": "Sandía",
+        "color": "Verde con rojo",
+        "familia": "Cucurbitáceas",
+        "precioPorKg": 0.8
+      },
+      {
+        "nombre": "Uva",
+        "color": "Morado",
+        "familia": "Vitáceas",
+        "precioPorKg": 4.0
+      }
+    ]
+  }
+  

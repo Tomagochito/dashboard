@@ -2,14 +2,6 @@
 import Typography from '@mui/material/Typography';
 import Paper from '@mui/material/Paper';
 
-/*export default function Indicator() {
-    return (
-       	<>
-            Indicator
-        </> 
-    )
-}
-*/
 interface Config {
     title?: String;
     subtitle?: String;
