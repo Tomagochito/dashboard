@@ -8,28 +8,21 @@ import Select, { SelectChangeEvent } from '@mui/material/Select';
 import { useState, useRef } from 'react';
 
 export default function ControlPanel() {
-    // Datos de los elementos del Select
     let items = [
         { "name": "Precipitación", "description": "Cantidad de agua, en forma de lluvia, nieve o granizo, que cae sobre una superficie en un período específico." },
         { "name": "Humedad", "description": "Cantidad de vapor de agua presente en el aire, generalmente expresada como un porcentaje." },
         { "name": "Nubosidad", "description": "Grado de cobertura del cielo por nubes, afectando la visibilidad y la cantidad de luz solar recibida." }
     ];
 
-    // Arreglo de componentes para las opciones del Select
     let options = items.map((item, key) => <MenuItem key={key} value={key}>{item["name"]}</MenuItem>);
-
-    // Variable de estado y función de actualización
     let [selected, setSelected] = useState<number | string>('');
 
-    // Variable de referencia a un elemento
     const descriptionRef = useRef<HTMLDivElement>(null);
 
-    // Manejador de eventos
     const handleChange = (event: SelectChangeEvent<number | string>) => {
         let idx = event.target.value as number;
         setSelected(idx);
 
-        // Modificación de la referencia
         if (descriptionRef.current !== null) {
             descriptionRef.current.innerHTML = (idx >= 0) ? items[idx]["description"] : "";
         }
@@ -61,7 +54,6 @@ export default function ControlPanel() {
                     </Select>
                 </FormControl>
             </Box>
-            {/* Muestra la descripción de la variable seleccionada */}
             <Typography ref={descriptionRef} mt={2} component="p" color="text.secondary" />
         </Paper>
     );
