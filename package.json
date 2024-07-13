@@ -1,5 +1,6 @@
 {
   "name": "dashboard",
+  "home": "https://tomagochito.github.io/dashboard/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
